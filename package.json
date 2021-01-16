@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "calcualtor-engine": "file:./kk-math/pkg"
+    "kk-math": "file:kk-math/pkg"
   },
   "devDependencies": {
     "html-webpack-plugin": "^4.5.1",

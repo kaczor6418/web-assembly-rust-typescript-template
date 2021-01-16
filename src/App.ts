@@ -1,7 +1,7 @@
-import { KKMath } from '../kk-math/pkg/kk_math';
+import { KKMath } from 'kk-math';
 
 const template: string = `
-<h1>WebAssembly - Rust + Typescript</h1>
+<h1>WebAssembly - Rust + TypeScript</h1>
 <span></span>
 <button>Calculate expression</button>
 <p></p>
