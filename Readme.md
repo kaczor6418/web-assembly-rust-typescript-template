@@ -1,4 +1,4 @@
-# How to coonect WebAssembly-Rust with TypeScript (WebComponents)
+# How to connect WebAssembly-Rust with TypeScript (WebComponents)
 
 ## What you will need:
 
