@@ -9,11 +9,21 @@ use wasm_bindgen::prelude::*;
 static ALLOC: wee_alloc::WeeAlloc = wee_alloc::WeeAlloc::INIT;
 
 #[wasm_bindgen]
-extern {
-    fn alert(s: &str);
+pub struct KKMath {
+    value_a: f64,
+    value_b: f64
 }
 
 #[wasm_bindgen]
-pub fn greet() {
-    alert("Hello, kk-math!");
+impl KKMath {
+    pub fn new(value_a: f64, value_b: f64) -> KKMath {
+        return KKMath {
+            value_a,
+            value_b
+        };
+    }
+
+    pub fn add(&self) -> f64 {
+        return self.value_a + self.value_b;
+    }
 }
