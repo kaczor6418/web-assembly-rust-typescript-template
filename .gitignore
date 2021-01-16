@@ -1,3 +1,12 @@
+# Web project
 node_modules
 dist
 .idea
+
+# WebAssembly project
+kk-math/target
+kk-math/**/*.rs.bk
+kk-math/Cargo.lock
+kk-math/bin/
+kk-math/pkg/
+kk-math/wasm-pack.log
