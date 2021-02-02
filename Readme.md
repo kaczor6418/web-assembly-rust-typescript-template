@@ -11,17 +11,6 @@
 
 ### Set-up
 
-## What you will need:
-
- - **[`npm and node.js`](https://www.npmjs.com/get-npm)**
- - **[`rust and cargo`](https://www.rust-lang.org/tools/install)**
- - **[`wasm-pack`](https://rustwasm.github.io/wasm-pack/installer/)**
- - **[`webpack 5`](https://webpack.js.org/)**
-
-## How to set up project
-
-### Set-up
-
 #### Web - TypeScript part
 
  1. Initialize npm project
