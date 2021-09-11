@@ -21,7 +21,7 @@ export class App extends HTMLElement {
 
     constructor() {
         super();
-        this.attachShadow({ mode: 'open' });
+        this.shadowRoot = this.attachShadow({ mode: 'open' });
         this.shadowRoot.innerHTML = template;
         this.evaluatorButton = this.shadowRoot.querySelector('button')!
         this.expression = this.shadowRoot.querySelector('span')!;
