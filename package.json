@@ -13,7 +13,7 @@
     "kk-math": "file:kk-math/pkg"
   },
   "devDependencies": {
-    "html-webpack-plugin": "^4.5.1",
+    "html-webpack-plugin": "^5.5.0",
     "ts-loader": "^8.0.14",
     "typescript": "^4.1.3",
     "webpack": "^5.15.0",
